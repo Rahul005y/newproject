@@ -26,8 +26,8 @@ section{
 main {
     width: 100%;
     @include flex-column($gap: 0rem);
-
     align-items: center;
+
     section {
         width: 100%;
         @include flex-column($gap: 2rem);
@@ -81,6 +81,7 @@ main {
 @media (min-width:900px ){
     main{
         background-color: #1E1E1E;
+        
 
         section{
           flex-direction: row;
